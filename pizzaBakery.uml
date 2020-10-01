@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.kersevanivan</OriginalElement>
+  <nodes>
+    <node x="0.0" y="368.0">org.kersevanivan.ingredients</node>
+    <node x="285.0" y="215.0">org.kersevanivan.pizzaStyle</node>
+    <node x="171.5" y="0.0">org.kersevanivan.Pizza</node>
+    <node x="0.0" y="454.0">org.kersevanivan.Main</node>
+    <node x="4.0" y="153.0">org.kersevanivan.PizzaDecorator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.kersevanivan.pizzaStyle" target="org.kersevanivan.Pizza">
+      <point x="0.0" y="-20.5" />
+      <point x="413.5" y="128.0" />
+      <point x="325.25" y="128.0" />
+      <point x="51.25" y="51.5" />
+    </edge>
+    <edge source="org.kersevanivan.ingredients" target="org.kersevanivan.PizzaDecorator">
+      <point x="0.0" y="-20.5" />
+      <point x="0.0" y="82.5" />
+    </edge>
+    <edge source="org.kersevanivan.PizzaDecorator" target="org.kersevanivan.Pizza">
+      <point x="0.0" y="-82.5" />
+      <point x="134.5" y="128.0" />
+      <point x="222.75" y="128.0" />
+      <point x="-51.25" y="51.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="263.0" y="204.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
